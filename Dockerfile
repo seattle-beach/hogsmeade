@@ -12,4 +12,4 @@ ENV FRONTEND_PATH /app/frontend/build
 
 WORKDIR /app
 
-ENTRYPOINT [ "node", "/app/backend/dist/index.js" ]
+CMD [ "node", "/app/backend/dist/index.js" ]
